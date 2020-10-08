@@ -1,5 +1,12 @@
 <div class="container">
 
-  <h2>Angular Services</h2>
+  <h2>Learn Angular Services</h2>
+
+  <div class="card">
+    <h2>App counter: {{appCounterService.counter}}</h2>
+  </div>
+
+  <button class="btn" (click)="appCounterService.increase()">+</button>
+  <button class="btn" (click)="appCounterService.decrease()">-</button>
 
 </div>

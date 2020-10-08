@@ -1,0 +1,24 @@
+.card {
+  border: 2px solid rgba(9, 137, 149, 0.2);
+  border-radius: 5px ;
+  padding: 1.1rem;
+}
+
+.btn {
+  width: 60px;
+  height: 30px;
+  color: lightgray;
+  background: #2a2929;
+  margin: 5px;
+  outline: none;
+  transition: .4s;
+  cursor: pointer;
+}
+
+.btn:active {
+  outline: none;
+}
+
+.btn:hover {
+  background: #3b3939;
+}
