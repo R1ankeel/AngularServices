@@ -2,6 +2,17 @@
   border: 2px solid rgba(9, 137, 149, 0.2);
   border-radius: 5px ;
   padding: 1.1rem;
+  margin: 1rem 0;
+  background: linear-gradient(30deg, #e0e0e0, #c6afaf);
+  box-shadow: 12px 10px 5px #c6afaf;
+  transition: .3s;
+}
+
+.card:hover {
+  box-shadow: none;
+  transform: scale(0.97);
+  background: linear-gradient(60deg, #e0e0e0, #c6afaf);
+  transform: translateX(-1px);
 }
 
 .btn {
